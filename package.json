@@ -1,23 +1,28 @@
 {
-    "name": "ohmygooo-dl",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "bin": {
-        "dl": "index.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/luandevpro/ohmygooo-dl.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/luandevpro/ohmygooo-dl/issues"
-    },
-    "homepage": "https://github.com/luandevpro/ohmygooo-dl#readme"
+  "name": "ohmygooo-dl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "dl": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luandevpro/ohmygooo-dl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luandevpro/ohmygooo-dl/issues"
+  },
+  "homepage": "https://github.com/luandevpro/ohmygooo-dl#readme",
+  "dependencies": {
+    "cli-progress": "^3.8.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "description": ""
 }
